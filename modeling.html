@@ -44,57 +44,57 @@
 		<!-- Main -->
 			<section id="main" class="wrapper">
 				<div class="inner">
-					<h2>1A Introduction</h2>
+					<p><h2>1A Introduction</h2>
 
-3D modeling is something that is important for three-dimensional video games, considering it makes up most of the environment for the player if 'brushes' are not used to create the environment. Modeling can be done in many techniques and can be done in many applications, such as Maya, 3ds Max and the most common being Blender.
+3D modeling is something that is important for three-dimensional video games, considering it makes up most of the environment for the player if 'brushes' are not used to create the environment. Modeling can be done in many techniques and can be done in many applications, such as Maya, 3ds Max and the most common being Blender.</p>
 
 
-					<h3>1B Blender</h3>
+					<p><h3>1B Blender</h3>
 
 Blender is a free open-source modeling software application for Windows 10, Mac and Linux. Blender uses a custom built rendering system to create images and graphics in third-dimension, with their special rendering system, scenes can be built inside the software and rendered in whatever way a user wants it. Scenes can be made to be realistic, with ray-tracing, reflections and refractions and many more.
 
 Blender is one of the most commonly used modeling software applications because of the lack of a paid
-subscription for use of the software, and just no transactions needed to use any of the in-app features.
+subscription for use of the software, and just no transactions needed to use any of the in-app features.</p>
 
-					<h3>1C Blender & the Source Engine</h3>
+					<p><h3>1C Blender & the Source Engine</h3>
 
 Blender is one of the best modeling software applications when it comes to creating models for the Source Engine, mainly because of how easy it is to use and how people have already created plug-ins to make it easier to export the models into the Source Engine for use in Hammer Editor, or just game play.
 
 Blender Source Tools (http://steamreview.org/BlenderSourceTools/) is a plug-in that is used for exporting Blender models to Studiomdl Data files. (SMD) These files are used as data for the model and need to be compiled before they can be used in game.
 
-Blender is recommended for people who create custom content for the Source Engine.
+Blender is recommended for people who create custom content for the Source Engine.</p>
 
-					<h3>1D Maya</h3>
+					<p><h3>1D Maya</h3>
 
-Maya is another open-source modeling software application for Windows 10, Mac and Linux. Unlike its counter-part Blender, it uses a paid subscription but students can register to use the program for 3 years, (though a free trial can be used) meaning this software is for more advanced and professional video game modelers.
+Maya is another open-source modeling software application for Windows 10, Mac and Linux. Unlike its counter-part Blender, it uses a paid subscription but students can register to use the program for 3 years, (though a free trial can be used) meaning this software is for more advanced and professional video game modelers.</p>
 
-					<h3>1E 3ds Max</h3>
+					<p><h3>1E 3ds Max</h3>
 
-3ds Max is another modeling software application for Windows 10 and Mac, created by Autodesk, this software uses a paid subscription service like Maya, but students, teachers and institutions are eligible for free access to this software. (free trial is available for people who don't fit these conditions)
+3ds Max is another modeling software application for Windows 10 and Mac, created by Autodesk, this software uses a paid subscription service like Maya, but students, teachers and institutions are eligible for free access to this software. (free trial is available for people who don't fit these conditions)</p>
 
-					<h3>2A Modeling in Blender (Source Engine)</h3>
+					<p><h3>2A Modeling in Blender (Source Engine)</h3>
 
 Once you have installed Blender and the Blender Source Tools plug-in, you can begin modeling for the Source Engine using Blender. If this is your first time using Blender, take time to remember the layout of the tabs, and learn how to use features of the software. Blender may seem advanced, but it is easy to learn and can be mastered after some use of the application.
 
 When modeling for the Source Engine, models should not be extremely detailed, and should have a max limit of 100,000 to 125,000 vertices on itself. (Higher then this can cause frame drops or instability with the model) The model should have seams marked into parts of the model so when the texture is UV unwrapped, it can be easier to work with and less fidgety.
 
-					<i>- Skip to 3A for UV Unwrapping</i>
+					<i>- Skip to 3A for UV Unwrapping</i></p>
 
-					<h3>2B Naming your models (Source Engine/Blender)</h3>
+					<p><h3>2B Naming your models (Source Engine/Blender)</h3>
 
 When you are naming your models, it's important to use the right suffixes for your models to make the models work properly in the compile. For the default model, it is refered to as the "reference model", the name of the model can be just the default name, (e.g. a bottle would be called "bottle1a") the model name can be added with the "_reference" suffix, but this is not important.
 
 Physics models have to be named under the default name + the suffix "_phys" or "_physics", this is important in compiling so the Source Engine can tell the difference between the reference model and the physics model.
 
-Added bodies onto the default model have a leveled suffix, for example; model one might be called "bottle_1a" and model two would be "bottle_1b" continuing on.
+Added bodies onto the default model have a leveled suffix, for example; model one might be called "bottle_1a" and model two would be "bottle_1b" continuing on.</p>
 
-					<h3>2C Physics (Source Engine/Blender)</h3>
+					<p><h3>2C Physics (Source Engine/Blender)</h3>
 
 Physics are important for Source Engine models, without them, they are considered entities and will spawn differently compared to 'props', models should only have no collision if they are used in player view-models or third-person models.
 
-A physics model does not have to be a copy of the original model, in fact it might ruin itself if the physics model has too many vertexes or if the shapes are too complex, so making simple boxes, cylinders or whatever makes more sense.
+A physics model does not have to be a copy of the original model, in fact it might ruin itself if the physics model has too many vertexes or if the shapes are too complex, so making simple boxes, cylinders or whatever makes more sense.</p>
 
-					<h3>2D Exporting a Studiomdl Data file (Source Engine/Blender)</h3>
+					<p><h3>2D Exporting a Studiomdl Data file (Source Engine/Blender)</h3>
 
 After a model has been completed, it's time to export the model out of Blender, before doing this make sure;
 - All the necessary models are created.
@@ -102,9 +102,9 @@ After a model has been completed, it's time to export the model out of Blender, 
 - Textures have a name on the right side.
 - You have Blender Source Tools installed into Blender.
 
-Once you have made sure those are done, open the "active data" tab on the right side and scroll down to "Source Engine Export". Make your export path wherever the .smd files will go after the export, the Engine Path is the bin folder where the studiomdl files are located in a Source Games files. (steamapps/common/sourcegame/bin) Select SMD as the export option and press export.
+Once you have made sure those are done, open the "active data" tab on the right side and scroll down to "Source Engine Export". Make your export path wherever the .smd files will go after the export, the Engine Path is the bin folder where the studiomdl files are located in a Source Games files. (steamapps/common/sourcegame/bin) Select SMD as the export option and press export.</p>
 
-					<h3>2E UV Unwrapping (Blender)</h3>
+					<p><h3>2E UV Unwrapping (Blender)</h3>
 
 For textures to show on models, they must have a flat texture file known as the UV Map, this texture map will contain some if not all of a models parts, unwrapped onto a two-dimensional plain.
 
@@ -116,7 +116,7 @@ map. In the top part of the application, you will see a small box with "Default"
 Select your whole model in edit mode (Press A to select all vertexes) and press U, a menu will pop up.
 You have two options when unwrapping your texture.
 - Smart UV Project; unwraps the entire selection, not following the seams marked (not recommended)
-- Unwrap; unwraps the entire selection, following the seams marked and creating a warped texture.
+- Unwrap; unwraps the entire selection, following the seams marked and creating a warped texture.</p>
 				</div>
 			</section>
 
