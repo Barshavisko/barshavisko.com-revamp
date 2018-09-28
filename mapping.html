@@ -44,10 +44,11 @@
 		<!-- Main -->
 			<section id="main" class="wrapper">
 				<div class="inner">
+					<br>
 <h3>Brushes</h3><p>Brushes are essentially the backbone to the map; it's impossible to have a map without brushes. Brushes are used to create many essential parts of a map including, but not limited to: world geometry, the skybox, area triggers, and displacements.</p>
 
 <p>Brushes are created with the 'Block Tool' located on the panel at the far left of the screen (or alternatively press Shift + B). The block tool can create arches, blocks, cylinders, spheres, spikes, toruses, and wedges, but right now we'll just focus on making a simple block. With the 'Block Tool' enabled (and making sure that at the lower right corner of the screen, the 'Categories' tab is set to 'Primitives' and the 'Objects' tab is set to 'Block') move the mouse cursor to any point on any 2D view grid and drag the left-mouse button to the size of the brush you want. Make sure that it looks right in all three grids (Top, Side, and Front). Press 'Enter' on the keyboard or right-click the mouse in the 2D grid and select "Create Object" to create the brush.</p>
-
+<br>
 <br>
 
 <h3>Entities</h3><p>Entities are essentially any objects in Hammer Editor that are not world brushes. Most entities perform some sort of action, like lighting a room, teleporting a player to another part of the map, or laying down a route path for an NPC (Non-Player Character).Entities can be split into two categories: brush entities and point entities.</p>
@@ -58,7 +59,7 @@ Point entities are a little different from brush entities in a few ways. First o
 
 <p>To insert a point entity, click the 'Entity Tool' at the panel on the left of the screen (or press Shift + E), then look at the lower right corner of the screen. Under the 'Categories' tab it will say 'Entities' and under the 'Objects' tab will be the name of the currently selected entity. By default, it'll be a spawn point for whatever game you are mapping (ex. "info_player_deathmatch" for Half-Life 2: Deathmatch, "info_player_terrorist" for Counter-Strike: Source, etc.). You can filter through the different point entities by simply typing it in the 'Objects' tab. So if you wanted to insert a light, simply type in "light" in the 'Objects' tab and it'll filter all entities with "light" in it. Once you have the desired entity selected, pick a point on a grid where you'd like to place the entity and click the left mouse button (you may also left click in the 3d camera - keep in mind that if you click on the 3D camera, the entity will be created automatically, while if you click on the 2D grid, you'll have to press enter before it is created). Once it is created and you're satisfied with the placement, press the Escape (Esc) key on the keyboard and you have a point entity in your map.</p>
 <br>
-
+<br>
 
 <h3>Texturing</h3><p>Textures define what your brushes look like, as well as assigning material properties to brushes. While most textures are applied on brushes for aesthetic appeal in game, they can be used for optimization and organizational purposes. For example, a trigger_multiple brush entity could receive any texture, but it'd be wise for organizational reasons to texture it with either the tools/toolstrigger or tools/toolsinvisible texture. Another example is tools/toolsnodraw. This is definitely one of the most important textures to use, because any brush face textured with tools/toolsnodraw will not be rendered in the game; therefore, it is wise to create brushes with no draw first, then apply the desired texture to only the brush faces the player can see from the player's point-of-view in the game. Trigger, invisible, and nodraw textures will appear in the 'Auto' visgroup for easy hiding or viewing.</p>
 
